@@ -3,11 +3,16 @@
 ## Inventory
   * Long rolling paper to put on the wall.
   * A lot of puzzles
-      2. [Reference booklet design](https://docs.google.com/document/d/1LC2HjMGDTYE7t7ImssBEE-eO3C9rFEdic0oUgjDx5Js/edit?usp=sharing)
+      1. [Reference booklet design](https://docs.google.com/document/d/1LC2HjMGDTYE7t7ImssBEE-eO3C9rFEdic0oUgjDx5Js/edit?usp=sharing)
+      2. Puzzles should probably be "Where's Waldo" type puzzles rather than "Spot the differences" puzzles.
+          * the important property of these puzzles is that they require a brute-force approach and that the time it takes to solve them has a uniform distribution. ("spot the differences" puzzles are not appropriate because the time it takes to solve them has a binomial distribution.
       3. Actually this should be separate stacks of uniform puzzles. Each round everyone gets just the single puzzle for that round. Nobody know the next puzzle in advance.
   * A lot of transaction slips
-      * Some have verification digits. Some have valid verification, some invalid. (valid  = digit string where the sum of the digits is a multiple of 10. Some long string, some short bounties run between 1 BTC and 100 BTC (randomly?)        
-      * A few without bounties, the rest with (keep them separate)    
+      * each transaction slip has three components: a payload, a verification string, and a bounty.
+      * the payload is something like a message "Alice gives to Bob 20 BTC" or like a cat picture.
+      * the verification string (which is optional) is a string that can be valid or invalid. One approach: valid  = a correct arithmetic equation, such as "58 + 17 = "75", invalid is like "58 + 17 = "65". The difficulty of verification (e.g. number of digits of the equation) can be different for each transaction slip.
+      * the bounty (optional) is a certain amount of the currency, e.g. a uniformly random amount of bitcoin between 1 BTC and 100 BTC
+      * overall you want maybe 10-20 slips with only a payload, 10-20 with a payload and a verification string (but no bounty) and the rest (maybe 100-200) with all three components. 
   * Sleeper agent notes for more than half of the participants    
   * Markers/pencils for everyone to draw arrows and contours, masking tape
 
