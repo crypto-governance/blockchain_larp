@@ -1,3 +1,5 @@
+(This document is a preliminary working version. Pull requests, corrections and suggestions are apperciated!)
+
 # Script for LARP
 
 ## Abstract
