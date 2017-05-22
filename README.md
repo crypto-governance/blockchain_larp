@@ -1,11 +1,15 @@
-(This document is a preliminary working version. Pull requests, corrections and suggestions are apperciated!)
-
 # Script for LARP
 
 ## Abstract
 
 Formulating a metaphor of the Bitcoin blockchain as a social LARP (Live Action Role Play), participants will get a hands-on experience with the inner mechanics of this blockchain system.
 The main goal of this LARP would be to explore the mechanics of a blockchain's incentives system, namely the functioning of the mining networks and consensus layer. Since these mechanics rely on less common game-theoretical concepts, a hands-on LARP (rather than other more academic approaches) can helpfully illuminate intricacies and behaviors to non technical and uninitiated crowds.
+
+## This Document
+
+This document is a preliminary working version. Pull requests, corrections and suggestions are apperciated!
+
+Feel free to use these materials as you desire. Credit is not mandatory, but appreciated.
 
 ## Introduction
 Blockchain is a complicated distributed system, that seems to work almost magically. To better understand the incentives that make this system work, and to understand the ways in which it can fail, we’ll LARP a mining network and experience those incentives by ourselves.
